@@ -45,3 +45,7 @@ logs/
 dist/
 build/
 *.egg-info/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+.streamlit/config.toml
