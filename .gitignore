@@ -1,0 +1,47 @@
+
+.env
+.env.local
+.env.production
+.env.staging
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Streamlit specific
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+*.log
+logs/
+
+*.tmp
+*.temp
+*~
+
+dist/
+build/
+*.egg-info/
